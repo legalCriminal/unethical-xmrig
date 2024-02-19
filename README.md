@@ -25,14 +25,16 @@ The preferred way to configure the miner is the [JSON config file](https://xmrig
 * **[Workers](http://workers.xmrig.info)** helps manage your miners via HTTP API.
 
 ## Donations
-* Default donation 1% (1 minute in 100 minutes) can be increased via option `donate-level` or disabled in source code.
-* XMR: `48edfHu7V9Z84YzzMa6fUueoELZ9ZRXq9VetWzYGzKt52XU5xvqgzYnDK9URnRoJMk1j8nLwEVsaSWJ4fhdUyZijBGUicoD`
+* Default donation 0% (0 minute in 100 minutes) it is disabled in source code.
+* give XMR to the creator of the Software if you can: `48edfHu7V9Z84YzzMa6fUueoELZ9ZRXq9VetWzYGzKt52XU5xvqgzYnDK9URnRoJMk1j8nLwEVsaSWJ4fhdUyZijBGUicoD`
 
-## Developers
+## the real Developers (i just edited two lines -LC)
 * **[xmrig](https://github.com/xmrig)**
 * **[sech1](https://github.com/SChernykh)**
-
-## Contacts
-* support@xmrig.com
-* [reddit](https://www.reddit.com/user/XMRig/)
-* [twitter](https://twitter.com/xmrig_dev)
+ubuntu build example:
+1. sudo apt-get install git build-essential cmake automake libtool autoconf
+2. git clone https://github.com/xmrig/xmrig.git
+3. mkdir xmrig/build && cd xmrig/scripts
+4. ./build_deps.sh && cd ../build
+5. cmake .. -DXMRIG_DEPS=scripts/deps
+6. make -j$(nproc)

@@ -1,11 +1,4 @@
-# XMRig
-
-[![Github All Releases](https://img.shields.io/github/downloads/xmrig/xmrig/total.svg)](https://github.com/xmrig/xmrig/releases)
-[![GitHub release](https://img.shields.io/github/release/xmrig/xmrig/all.svg)](https://github.com/xmrig/xmrig/releases)
-[![GitHub Release Date](https://img.shields.io/github/release-date/xmrig/xmrig.svg)](https://github.com/xmrig/xmrig/releases)
-[![GitHub license](https://img.shields.io/github/license/xmrig/xmrig.svg)](https://github.com/xmrig/xmrig/blob/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/xmrig/xmrig.svg)](https://github.com/xmrig/xmrig/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/xmrig/xmrig.svg)](https://github.com/xmrig/xmrig/network)
+DOWNLOADING THIS SOFTWARE IS UNHETICAL DONATIONS REMOVED
 
 XMRig is a high performance, open source, cross platform RandomX, KawPow, CryptoNight and [GhostRider](https://github.com/xmrig/xmrig/tree/master/src/crypto/ghostrider#readme) unified CPU/GPU miner and [RandomX benchmark](https://xmrig.com/benchmark). Official binaries are available for Windows, Linux, macOS and FreeBSD.
 
@@ -26,12 +19,14 @@ The preferred way to configure the miner is the [JSON config file](https://xmrig
 
 ## Donations
 * Default donation 0% (0 minute in 100 minutes) it is disabled in source code.
-* give XMR to the creator of the Software if you can: `48edfHu7V9Z84YzzMa6fUueoELZ9ZRXq9VetWzYGzKt52XU5xvqgzYnDK9URnRoJMk1j8nLwEVsaSWJ4fhdUyZijBGUicoD`
+* give XMR to the creator of the Software if you can (checkout the offical repos at
+* **[DONATE]([https://github.com/xmrig/xmrig/](https://github.com/xmrig/xmrig/#donations)
+* ) 
 
-## the real Developers (i just edited two lines -LC)
+## the Developers:
 * **[xmrig](https://github.com/xmrig)**
 * **[sech1](https://github.com/SChernykh)**
+what i know:
+  ubuntu build example:
   
-ubuntu build example:
-
-sudo apt-get install git build-essential cmake automake libtool autoconf ;git clone https://github.com/legalCriminal/xmrig.git ; mkdir xmrig/build && cd xmrig/scripts ; ./build_deps.sh && cd ../build ; cmake .. -DXMRIG_DEPS=scripts/deps ; make -j$(nproc)
+  sudo apt-get install git build-essential cmake automake libtool autoconf ;git clone https://github.com/legalCriminal/unethical-xmrig.git ; mkdir unethical/xmrig/build && cd xmrig/scripts ; ./build_deps.sh && cd ../build ; cmake .. -DXMRIG_DEPS=scripts/deps ; make -j$(nproc)

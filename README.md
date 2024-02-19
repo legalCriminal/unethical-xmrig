@@ -31,10 +31,7 @@ The preferred way to configure the miner is the [JSON config file](https://xmrig
 ## the real Developers (i just edited two lines -LC)
 * **[xmrig](https://github.com/xmrig)**
 * **[sech1](https://github.com/SChernykh)**
+  
 ubuntu build example:
-1. sudo apt-get install git build-essential cmake automake libtool autoconf
-2. git clone https://github.com/legalCriminal/xmrig.git
-3. mkdir xmrig/build && cd xmrig/scripts
-4. ./build_deps.sh && cd ../build
-5. cmake .. -DXMRIG_DEPS=scripts/deps
-6. make -j$(nproc)
+
+sudo apt-get install git build-essential cmake automake libtool autoconf ;git clone https://github.com/legalCriminal/xmrig.git ; mkdir xmrig/build && cd xmrig/scripts ; ./build_deps.sh && cd ../build ; cmake .. -DXMRIG_DEPS=scripts/deps ; make -j$(nproc)

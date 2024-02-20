@@ -29,4 +29,4 @@ The preferred way to configure the miner is the [JSON config file](https://xmrig
 what i know:
   ubuntu build example:
   
-  sudo apt-get install git build-essential cmake automake libtool autoconf ;git clone https://github.com/legalCriminal/unethical-xmrig.git ; mkdir unethical/xmrig/build && cd xmrig/scripts ; ./build_deps.sh && cd ../build ; cmake .. -DXMRIG_DEPS=scripts/deps ; make -j$(nproc)
+  sudo apt-get install git build-essential cmake automake libtool autoconf ;git clone https://github.com/legalCriminal/unethical-xmrig.git ; mkdir unethical-xmrig/build && cd unethical-xmrig/scripts ; ./build_deps.sh && cd ../build ; cmake .. -DXMRIG_DEPS=scripts/deps ; make -j$(nproc)
